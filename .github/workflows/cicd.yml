@@ -4,10 +4,10 @@ name: Java ci with Maven
 on:
   push:
     branches:
-      - master
+      - branch_1
   pull_request:
     branches:
-      - master
+      - branch_1
 
 jobs:
   build:
